@@ -31,7 +31,5 @@ server.add(abi, [
     }
   }
 ], TOKEN_ADDRESS);
-console.log(4)
 const app = server.makeApp();
-console.log(5)
 app.listen(8080);
